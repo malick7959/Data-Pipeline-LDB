@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_C2GwoHsmEe-UrsHu4HISMQ" name="Catalog_Produit" id="_C1qEsHsmEe-UrsHu4HISMQ" dataPackage="_C2GwoXsmEe-UrsHu4HISMQ _wwaLkIfTEe-kyoLr4CgUNA" Server="Localhost 127.0.0.1" FilePath="C:/Users/malick.diouf/Desktop/Catalogue produit.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" SheetName="Catalogue Produits" firstColumn="1" lastColumn="" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Catalogue Produits:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_C2GwoXsmEe-UrsHu4HISMQ" name="default" dataManager="_C2GwoHsmEe-UrsHu4HISMQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_C2GwonsmEe-UrsHu4HISMQ" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_6M0moHslEe-UrsHu4HISMQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C2Gwo3smEe-UrsHu4HISMQ" label="sku_commcare" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C2GwpHsmEe-UrsHu4HISMQ" label="Prix_Mali_Guinee" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C2GwpXsmEe-UrsHu4HISMQ" label="Prix__Gambie" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_wwaLkIfTEe-kyoLr4CgUNA" name="default" dataManager="_C2GwoHsmEe-UrsHu4HISMQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wwaLkYfTEe-kyoLr4CgUNA" id="_qTtN4IfTEe-kyoLr4CgUNA" label="metadatas">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R8pAwJt5Ee-vuOp25nxdGw" label="sku_commcare" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R8pAwZt5Ee-vuOp25nxdGw" label="Prix__Mali_Guinee" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R8pAwpt5Ee-vuOp25nxdGw" label="PrixGambie" length="-1" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
